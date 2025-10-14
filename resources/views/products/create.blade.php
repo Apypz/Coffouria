@@ -27,6 +27,12 @@
           @error('photo') <p class="text-red-500 text-xs mt-1">{{ $message }}</p> @enderror
       </div>
 
+       <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2">Stok</label>
+          <input type="number" name="stok" value="{{ old('stok') }}" class="w-full px-3 py-2 border rounded focus:outline-none focus:shadow-outline @error('stok') border-red-500 @enderror">
+          @error('stok') <p class="text-red-500 text-xs mt-1">{{ $message }}</p> @enderror
+      </div>
+
       <div class="mb-4">
           <label class="block text-gray-700 text-sm font-bold mb-2">Harga (Rp)</label>
           <input type="number" name="price" step="0.01" value="{{ old('price') }}" class="w-full px-3 py-2 border rounded focus:outline-none focus:shadow-outline @error('price') border-red-500 @enderror">
