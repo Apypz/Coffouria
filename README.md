@@ -69,7 +69,40 @@ Pastikan Anda telah menginstal:
 
 ### Langkah-langkah
 
-1. **Clone Repositori**
+1. Buka XAMPP, nyalakan Apache & MySQL
+2. Buka CMD, pilih lokasi untuk folder projek
    ```bash
-   git clone [URL_REPOSITORI]
-   cd [NAMA_FOLDER_PROYEK]
+   cd C:folder/name
+3. Clone projek ini
+   ```bash
+   git clone https://github.com/anggerasikk/coffouria.git
+4. Tambahkan path folder projek
+   ```bash
+   cd coffouria
+5. Masuk ke text editor Visual Studio Code
+   ```bash
+   code .
+6. Install Composer
+   ```bash
+   composer install
+7. Buat file .env
+   ```bash
+   cp .env.example .env
+8. Uncomment baris pada .env dan masukkan sesuai dibawah ini
+   ```bash
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=db_coffouria
+   DB_USERNAME=root
+   DB_PASSWORD=
+9. Tambahkan APP_KEY
+    ```bash
+    php artisan key:generate
+10. Tambahkan tabel migration lalu pilih yes
+    ```bash
+    php artisan migrate
+11. Jalankan projek
+    ```bash
+    php artisan serve
+12. Buka projek di url [localhost:8000](http://127.0.0.1:8000/)
