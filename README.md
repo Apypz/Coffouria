@@ -25,10 +25,10 @@ Berdasarkan Functional Requirements (FR) dan Use Case Diagram, sistem ini memili
 | Kebutuhan Fungsional (FR) | Deskripsi Fungsional | Stakeholder Terkait |
 | :--- | :--- | :--- |
 | *Manajemen Produk (CRUD)* | Memungkinkan *Admin Produk* untuk melakukan operasi Create, Read, Update, Delete (CRUD) pada data produk (nama, harga, deskripsi, gambar, kategori). | Admin Produk |
-| *Manajemen Stok* | Mengelola data stok produk, termasuk melihat jumlah stok terkini dan riwayat pergerakan barang (masuk/keluar). | Admin Produk, Manajer |
-| *Manajemen Kategori & Brand* | Memungkinkan *Admin Produk* melakukan operasi CRUD terhadap data kategori dan brand produk. | Admin Produk, Manajer |
-| *Pelacakan Perubahan Data* | Mencatat dan menyimpan riwayat setiap perubahan data produk, mencakup informasi siapa yang mengubah, apa yang diubah, dan kapan. | Admin Produk, Manajer |
-| *Dashboard & Laporan* | Menyediakan dashboard ringkasan data produk dan laporan relevan, seperti laporan stok dan laporan penjualan sesuai periode. | Manajer, Admin Produk |
+| *Manajemen Stok* | Mengelola data stok produk, termasuk melihat jumlah stok terkini dan riwayat pergerakan barang (masuk/keluar). | Admin Produk |
+| *Manajemen Kategori & Brand* | Memungkinkan *Admin Produk* melakukan operasi CRUD terhadap data kategori dan brand produk. | Admin Produk |
+| *Pelacakan Perubahan Data* | Mencatat dan menyimpan riwayat setiap perubahan data produk, mencakup informasi siapa yang mengubah, apa yang diubah, dan kapan. | Admin Produk |
+| *Dashboard & Laporan* | Menyediakan dashboard ringkasan data produk dan laporan relevan, seperti laporan stok dan laporan penjualan sesuai periode. | Manajer |
 
 ---
 
@@ -54,11 +54,6 @@ Sistem ini mendukung dua peran utama:
    - Memiliki hak akses penuh (full access).
    - Bertanggung jawab untuk input & update data produk.
    - Melakukan operasi CRUD pada produk, stok, kategori, dan brand.
-
-2. **Manajer**
-   - Memiliki hak akses terbatas untuk monitoring.
-   - Dapat melihat laporan, dashboard, dan riwayat perubahan data.
-   - Tidak dapat mengubah, menambah, atau menghapus data.
 
 ---
 
