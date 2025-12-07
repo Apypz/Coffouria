@@ -64,7 +64,8 @@ Sistem ini mendukung dua peran utama:
 Pastikan Anda telah menginstal:
 - PHP (versi yang kompatibel dengan Laravel)
 - Composer
-- Database Server (MySQL)
+- XAMPP
+- Visual Studio Code
 
 ### Langkah-langkah
 
