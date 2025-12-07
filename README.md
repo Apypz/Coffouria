@@ -88,7 +88,7 @@ Pastikan Anda telah menginstal:
 7. Buat file .env
    ```bash
    cp .env.example .env
-8. Uncomment baris pada .env dan masukkan sesuai dibawah ini
+8. Uncomment baris pada .env yang terhide/tercomment dan masukkan sesuai dibawah ini
    ```bash
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
