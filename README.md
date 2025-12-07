@@ -28,7 +28,7 @@ Berdasarkan Functional Requirements (FR) dan Use Case Diagram, sistem ini memili
 | *Manajemen Stok* | Mengelola data stok produk, termasuk melihat jumlah stok terkini dan riwayat pergerakan barang (masuk/keluar). | Admin Produk |
 | *Manajemen Kategori & Brand* | Memungkinkan *Admin Produk* melakukan operasi CRUD terhadap data kategori dan brand produk. | Admin Produk |
 | *Pelacakan Perubahan Data* | Mencatat dan menyimpan riwayat setiap perubahan data produk, mencakup informasi siapa yang mengubah, apa yang diubah, dan kapan. | Admin Produk |
-| *Dashboard & Laporan* | Menyediakan dashboard ringkasan data produk dan laporan relevan, seperti laporan stok dan laporan penjualan sesuai periode. | Manajer |
+| *Dashboard & Laporan* | Menyediakan dashboard ringkasan data produk dan laporan relevan, seperti laporan stok dan laporan penjualan sesuai periode. | Admin Produk |
 
 ---
 
